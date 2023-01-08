@@ -42,23 +42,66 @@
 
 .about-container{
     display: flex;
-    margin-top: 80px;
+    margin: 100px 0;
     align-items: center;
     gap: 100px;
 }
 .col-1 img{
     width: 400px;
 }
-.about-header{
+.common-header{
     font-size: 30px;
 }
 .about-discription{
     margin: 30px 0 20px;
     line-height: 1.5em;
+    color: #595858;
 }
 .col-2 ul li{
     line-height: 1.5em;
+    color: #595858;
 }
+
+/* --------plan---------- */
+
+.plan{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.plan-container{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.col-img{
+    width: 50px;
+    margin-bottom: 10px;
+}
+.col-discription{
+    color: #595858;
+    font-weight: 700;
+    margin: 10px 0 80px;
+}
+.plan-row-2{
+    padding: 40px 80px;
+
+    text-align: left;
+    background-image: linear-gradient(to right, rgba(0, 95, 172,0.9), rgba(240, 246, 250, 0.284)), url(images/watch.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.plan-row-2 h1{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* ---------footer-------- */
+
+
+
+
 
 
 
