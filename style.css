@@ -28,6 +28,7 @@
 .header-discription{
     font-weight: 300;
     margin: 30px 0;
+    line-height: 1.5em;
 }
 .btn{
     padding: 10px 20px;
@@ -36,6 +37,29 @@
     font-weight: 700;
     color: #005FAC;
 }
+
+/* ---------header close---------- */
+
+.about-container{
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+    gap: 100px;
+}
+.col-1 img{
+    width: 400px;
+}
+.about-header{
+    font-size: 30px;
+}
+.about-discription{
+    margin: 30px 0 20px;
+    line-height: 1.5em;
+}
+.col-2 ul li{
+    line-height: 1.5em;
+}
+
 
 
 
